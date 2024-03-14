@@ -102,7 +102,7 @@ class scoreboard;
 mailbox mbx;
 transaction t;
 transaction trr[256];
-virtual ram_intf vif;
+//virtual ram_intf vif;
 function new( mailbox mbx);
 this.mbx=mbx;
 endfunction
